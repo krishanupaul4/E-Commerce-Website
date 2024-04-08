@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="contact.css">
+
+</head>
+<body>
+    <div class="header">
+        <div class="container">
+            <div class="navbar">
+                <div class="logo">
+                    <img src="logo.png" width="125px">
+                </div>
+                <nav>
+                    <ul id="MenuItems">
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="product.html">Products</a></li>
+                        <li><a href="about.html">About</a></li>
+                        <li><a href="contact.html">Contact</a></li>
+                        <li><a href="login.html">Account</a></li>
+                    </ul>
+                </nav>
+                <img src="menu.png" class="menu-icon" onclick="menutoggle()">
+            </div>
+           
+        </div>
+    </div>
+
+    <div class="con">
+        <div class="contact">
+            <form action="https://api.web3forms.com/submit" method="POST">
+                <h3 >GET IN TOUCH</h3>
+                <input type="hidden" name="access_key" value="252e459a-94c3-48ba-901d-27aab48d994a">
+                <input type="text" id="name" placeholder="Your Name" name="name">
+                <input type="text" id="email" placeholder="Email Id" name="email">
+                <input type="text" id="phone" placeholder="Phone number" name="phn">
+                <textarea id="message" rows="5" placeholder="How can we help you?"></textarea>
+                <button type="submit" id="but">Submit</button>
+            </form>
+        </div>
+    </div>
+    <div class="footer">
+        <div class="container">
+            <div class="row">
+                <div class="footer-col-1">
+                    <h3>Download Our App</h3>
+                    <p>Download App for Android amd ios mobile phone</p>
+                    <div class="app-logo">
+                        <img src="play-store.png">
+                        <img src="app-store.png">
+                    </div>
+                </div>
+                <div class="footer-col-2">
+                    <img src="logo-white.png">
+                    <p>Download App for Android amd ios mobile phone Download App for Android amd ios mobile phone</p>
+                </div>
+                <div class="footer-col-3">
+                    <h3>Useful Links</h3>
+                    <ul>
+                        <li>Coupons</li>
+                        <li>Blog Post</li>
+                        <li>Return Policy</li>
+                        <li>Join Affiliate</li>
+                    </ul>
+                </div>
+                <div class="footer-col-4">
+                    <h3>Follow Us</h3>
+                    <ul>
+                        <li>Facebook</li>
+                        <li>Twitter</li>
+                        <li>Instagram</li>
+                        <li>Youtube</li>
+                    </ul>
+                </div>
+            </div>
+            <hr>
+            <p class="cr"><i class="fa-regular fa-copyright"></i>  Copyright 1969-Red Store</p>
+        </div>
+    </div>
+    <script src="contact.js"></script>
+    
+</body>
+</html>

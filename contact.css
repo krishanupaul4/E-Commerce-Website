@@ -1,0 +1,102 @@
+
+
+form{
+    background: white;
+    display:flex;
+    flex-direction: column;
+    padding:30px;
+    height:620px;
+    width:500px;
+}
+.contact h3{
+    color: #ff523b;
+}
+.contact{
+    height:500px;
+    width:600px;
+    text-align: center;
+    margin-bottom: 130px;
+}
+
+.con{
+    display: flex;
+    justify-content:center;
+}
+#name{
+    height:40px;
+    width:95%;
+    margin: 20px;
+    border-color: #ff523b;
+}
+#name:focus{
+    outline: none;
+}
+#email{
+    height:40px;
+    width:95%;
+    margin: 20px;
+    border-color: #ff523b;
+}
+#phone{
+    height:40px;
+    width:95%;
+    margin: 20px;
+    border-color: #ff523b;
+}
+#message{
+    height:150px;
+    width:95%;
+    margin: 20px;
+    border-color: #ff523b;
+    border-width: 1.9px;
+}
+#but{
+    height:40px;
+    width:95%;
+    margin: 20px;
+    background:  #ff523b;
+    border:none;
+    border-radius:30px;
+}
+#but:hover{
+    background: rgb(189, 54, 4);
+}
+#name:hover{
+    background: rgb(236, 231, 231);
+}
+#email:hover{
+    background: rgb(236, 231, 231);
+}
+#phone:hover{
+    background: rgb(236, 231, 231);
+}
+#phone:focus{
+    outline: none;
+}
+#email:focus{
+    outline: none;
+}
+#message:focus{
+    outline: none;
+}
+#message:hover{
+    background: rgb(236, 231, 231);
+}
+
+@media(max-width:480px){
+    .con{
+        display: flex;
+        justify-content:center;
+    }
+    form{
+        background: white;
+        display:flex;
+        flex-direction: column;
+        padding:10px;
+        height:620px;
+        width:300px;
+    }
+
+
+}
+

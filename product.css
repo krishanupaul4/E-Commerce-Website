@@ -1,0 +1,135 @@
+body{
+   background: #ffd6d6;
+}
+
+.cart{
+    text-align: right;
+    padding:10px;
+    cursor:pointer;
+    
+}
+.cart i{
+    font-size: 28px;
+}
+span{
+    background-color: orangered;
+    font-weight: 800;
+    font-size: 14px;
+    padding:3px;
+    border-radius: 20px;
+    margin-left: -30px;
+}
+.product1{
+    height:330px;
+    width:250px;
+    padding: 10px;
+    border:2px solid black;
+    text-align: center;
+    margin: 40px;
+    cursor:pointer;
+    background: white;
+}
+.product1:hover{
+   transform: translateY(-5px);
+}
+ .product1 img{
+    height:230px;
+    width:90%;
+ }
+ .product1 button{
+    height:30px;
+    width:120px;
+    background-color: rgb(234, 203, 29);
+    border-radius: 40px;
+    border:none;
+    cursor: pointer;
+ }
+ .product1 button:hover{
+   background-color:rgb(222, 142, 12);
+ }
+
+ .products{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    margin:20px;
+    flex-basis: 30%;
+ }
+
+ .cartspace{
+    height:0px;
+    width:50%;
+    position: absolute;
+    background-color: aliceblue;
+    overflow: auto;
+    text-align: center;
+    padding-left: 40px;
+    padding-right: 40px;
+    margin-left: 200px;
+    margin-right:200px;
+ }
+
+ .cartspace p{
+   padding-top: 20px;
+ }
+ .head{
+   padding-left: 200px;
+   background: rgb(215, 90, 90);
+   display: none;
+ }
+
+
+ .foot{
+   display:flex;
+   justify-content:space-between;
+   margin:20px 0px;
+   padding: 10px 0px;
+   border-top: 1px solid black;
+ }
+
+@media(max-width:480px){
+   .cartspace{
+      height:0px;
+      width:80%;
+      position: absolute;
+      background-color: aliceblue;
+      overflow: auto;
+      text-align: center;
+      margin-left:-10px;
+
+      
+   }
+   .head{
+      padding-left: 20px;
+      background: radial-gradient(#fff,#ffd6d6);
+      display: none;
+    }
+
+
+    .product1 img{
+      height:230px;
+      width:100%;
+   }
+
+   .product1{
+      height:330px;
+      width:250px;
+      padding: 10px;
+      border:2px solid black;
+      text-align: center;
+      margin: 10px;
+      cursor:pointer;
+      background: white;
+  }
+  h2{
+   font-size:14px;
+  }
+  h3{
+   font-size:14px;
+  }
+
+  .cartspace p{
+   font-size:10px;
+  }
+
+}
